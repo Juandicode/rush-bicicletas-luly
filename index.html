@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="color-scheme" content="light">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Rush Bicicletas: bicicletas, eléctricas, repuestos y taller en Rivera 4713, Montevideo.">
+  <title>Rush Bicicletas</title>
+  <link rel="icon" href="img/logo.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Instrument+Sans:wght@400..600&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="wa-icon" viewBox="0 0 32 32"><path d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.3.6 4.5 1.8 6.4L3 29l7.2-1.9c1.8 1 3.8 1.5 5.8 1.5 7 0 12.7-5.6 12.7-12.6S23 3 16 3zm0 23.2c-1.9 0-3.7-.5-5.3-1.5l-.4-.2-4.3 1.1 1.1-4.1-.3-.4c-1.1-1.7-1.6-3.6-1.6-5.5C5.2 9.8 10 5.1 16 5.1s10.8 4.7 10.8 10.5S22 26.2 16 26.2zm5.9-7.8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.5c.2.2 2.4 3.6 5.8 5 .8.3 1.4.5 1.9.7.8.3 1.6.2 2.2.1.7-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.1-.3-.2-.6-.3z"/></symbol>
+  </defs>
+</svg>
+
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="index.html" aria-label="Rush Bicicletas, inicio">
+      <img src="img/logo.webp" alt="Logo de Rush Bicicletas">
+      <div><span>Rush</span><small>BICICLETAS</small></div>
+    </a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú"><i></i><i></i><i></i></button>
+    <nav id="menu" aria-label="Secciones">
+      <a href="index.html" aria-current="page">Inicio</a>
+      <a href="bicicletas.html">Bicicletas</a>
+      <a href="electricas.html">Eléctricas</a>
+      <a href="repuestos.html">Repuestos</a>
+      <a href="taller.html">Taller</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-text">
+        <div class="eyebrow">Bicicletería en Montevideo</div>
+        <h1>Salí a rodar <em>con Rush.</em></h1>
+        <p>Mountain bikes rodado 29 de Baccio, GT, Cannondale, Scott y Kova, eléctricas S&#8209;Pro y taller propio en Rivera 4713. Te la entregamos armada y regulada, lista para salir.</p>
+        <div class="ctas">
+          <a class="btn btn-ghost" href="bicicletas.html">Ver bicicletas</a>
+          <a class="link" href="taller.html">Conocé el taller</a>
+        </div>
+        <ul class="facts">
+          <li><b>Rivera 4713</b>Montevideo</li>
+          <li><b>Lunes a sábado</b>9:45 a 17:45</li>
+          <li><b>Deceleste</b>Distribuidor oficial</li>
+        </ul>
+      </div>
+      <a class="hero-card" href="producto.html?id=baccio-sunny-man-29" style="text-decoration:none;color:inherit" aria-label="Baccio Sunny Man, la más vendida, desde US$ 279">
+        <div class="photo"><img src="img/bicis/baccio-sunny-man-29.jpg" alt="Bicicleta Baccio Sunny Man rodado 29"></div>
+        <div class="meta">
+          <div class="eyebrow">La más vendida</div>
+          <h3>Baccio Sunny Man</h3>
+          <p class="hint-wa">Rodado 27.5 y 29 · Cuadro de aluminio · 21 velocidades</p>
+          <div class="row"><div class="price"><small>Desde</small>US$ 279</div><span class="link">Ver detalles</span></div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <div class="brands" aria-label="Marcas que trabajamos">
+  <!-- El ciclista recorre la franja de marcas -->
+  <div class="ride" id="ride" aria-hidden="true">
+    <div class="bike" id="bike" aria-hidden="true">
+  <div class="bike-flip" id="bikeFlip">
+    <svg viewBox="-70 -10 490 285" role="img" aria-label="Ciclista de ruta">
+      <!-- Líneas de velocidad (se intensifican con el scroll) -->
+      <g id="estela" stroke="#141010" stroke-linecap="round" opacity="0">
+        <path d="M-66 262 L60 262" stroke-width="4"/>
+        <path d="M-40 254 L40 256" stroke-width="2.5"/>
+        <path d="M-58 270 L30 268" stroke-width="2"/>
+        <path d="M-20 246 L34 249" stroke-width="1.6"/>
+      </g>
+      <!-- Pierna lejana -->
+      <g id="leg-far"></g>
+      <!-- Brazo lejano -->
+      <path d="M252 50 L270 84 L312 92" fill="none" stroke="#141010" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M252 50 L270 84 L312 92" fill="none" stroke="#9C6440" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <g id="rueda-izq">
+        <circle cx="95" cy="200" r="61" fill="none" stroke="#141010" stroke-width="7"/>
+        <circle cx="95" cy="200" r="55" fill="none" stroke="#C8661A" stroke-width="9"/>
+        <circle cx="95" cy="200" r="55" fill="none" stroke="#F2A24A" stroke-width="3" stroke-dasharray="40 305"/>
+        <circle cx="95" cy="200" r="50" fill="none" stroke="#141010" stroke-width="1.6"/>
+        <g stroke="#8C8078" stroke-width="1.1"><line x1="43.0" y1="200.0" x2="147.0" y2="200.0"/><line x1="45.5" y1="183.9" x2="144.5" y2="216.1"/><line x1="52.9" y1="169.4" x2="137.1" y2="230.6"/><line x1="64.4" y1="157.9" x2="125.6" y2="242.1"/><line x1="78.9" y1="150.5" x2="111.1" y2="249.5"/><line x1="95.0" y1="148.0" x2="95.0" y2="252.0"/><line x1="111.1" y1="150.5" x2="78.9" y2="249.5"/><line x1="125.6" y1="157.9" x2="64.4" y2="242.1"/><line x1="137.1" y1="169.4" x2="52.9" y2="230.6"/><line x1="144.5" y1="183.9" x2="45.5" y2="216.1"/></g>
+        <circle cx="95" cy="200" r="13" fill="none" stroke="#141010" stroke-width="4" stroke-dasharray="2 2"/><circle cx="95" cy="200" r="5" fill="#141010"/>
+      </g>
+      <g id="rueda-der">
+        <circle cx="325" cy="200" r="61" fill="none" stroke="#141010" stroke-width="7"/>
+        <circle cx="325" cy="200" r="55" fill="none" stroke="#C8661A" stroke-width="9"/>
+        <circle cx="325" cy="200" r="55" fill="none" stroke="#F2A24A" stroke-width="3" stroke-dasharray="40 305"/>
+        <circle cx="325" cy="200" r="50" fill="none" stroke="#141010" stroke-width="1.6"/>
+        <g stroke="#8C8078" stroke-width="1.1"><line x1="273.0" y1="200.0" x2="377.0" y2="200.0"/><line x1="275.5" y1="183.9" x2="374.5" y2="216.1"/><line x1="282.9" y1="169.4" x2="367.1" y2="230.6"/><line x1="294.4" y1="157.9" x2="355.6" y2="242.1"/><line x1="308.9" y1="150.5" x2="341.1" y2="249.5"/><line x1="325.0" y1="148.0" x2="325.0" y2="252.0"/><line x1="341.1" y1="150.5" x2="308.9" y2="249.5"/><line x1="355.6" y1="157.9" x2="294.4" y2="242.1"/><line x1="367.1" y1="169.4" x2="282.9" y2="230.6"/><line x1="374.5" y1="183.9" x2="275.5" y2="216.1"/></g>
+        <circle cx="325" cy="200" r="5" fill="#141010"/>
+      </g>
+      <!-- Cadena y cambio -->
+      <path d="M195 187 L95 188 M195 231 L95 212" fill="none" stroke="#5A5048" stroke-width="2.4" stroke-dasharray="3 2"/>
+      <path d="M95 212 L102 228 L92 234" fill="none" stroke="#141010" stroke-width="3" stroke-linecap="round"/>
+      <!-- Cuadro de ruta (contorno tinta + cobre) -->
+      <g stroke-linecap="round" stroke-linejoin="round" fill="none">
+        <path d="M95 200 L195 209 L170 110 Z M170 110 L300 98 M195 209 L304 128 M300 98 L306 128" stroke="#141010" stroke-width="12"/>
+        <path d="M95 200 L195 209 L170 110 Z M170 110 L300 98 M195 209 L304 128 M300 98 L306 128" stroke="#D0701E" stroke-width="7"/>
+        <path d="M212 196 L286 141" stroke="#141010" stroke-width="3" stroke-dasharray="7 3 2 3"/>
+        <path d="M306 128 Q314 162 325 200" stroke="#141010" stroke-width="9"/>
+        <path d="M306 128 Q314 162 325 200" stroke="#D0701E" stroke-width="4"/>
+        <!-- Tija y asiento -->
+        <path d="M170 110 L162 80" stroke="#141010" stroke-width="6"/>
+        <!-- Potencia y manubrio de carrera -->
+        <path d="M300 98 L318 92" stroke="#141010" stroke-width="6"/>
+        <path d="M316 92 L332 90 Q348 92 344 110 Q340 124 326 122" stroke="#141010" stroke-width="6"/>
+      </g>
+      <path d="M140 76 Q152 70 186 73 Q190 79 180 80 L148 81 Q136 81 140 76 Z" fill="#141010"/>
+      <path d="M328 84 L338 84 L336 96 L328 96 Z" fill="#141010"/>
+      <!-- Pedalier -->
+      <g id="pedal">
+        <circle cx="195" cy="209" r="22" fill="none" stroke="#141010" stroke-width="6" stroke-dasharray="3 2"/>
+        <circle cx="195" cy="209" r="15" fill="#2A2320"/>
+        <line x1="195" y1="209" x2="195" y2="245" stroke="#141010" stroke-width="7" stroke-linecap="round"/>
+        <line x1="195" y1="209" x2="195" y2="245" stroke="#8C8078" stroke-width="3" stroke-linecap="round"/>
+        <line x1="195" y1="209" x2="195" y2="173" stroke="#141010" stroke-width="7" stroke-linecap="round"/>
+        <circle cx="195" cy="209" r="4" fill="#C8661A"/>
+      </g>
+      <!-- Ciclista agachado -->
+      <g id="ciclista" stroke-linecap="round" stroke-linejoin="round">
+        <g id="leg-near"></g>
+        <!-- Torso: camiseta rojo-naranja con panel naranja -->
+        <path d="M166 66 Q210 34 262 40" fill="none" stroke="#141010" stroke-width="34"/>
+        <path d="M166 66 Q210 34 262 40" fill="none" stroke="#C0391B" stroke-width="28"/>
+        <path d="M176 70 Q214 50 258 52" fill="none" stroke="#F0892A" stroke-width="9"/>
+        <path d="M204 42 L236 36" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity=".85"/>
+        <!-- Calza -->
+        <path d="M152 70 Q162 54 184 60" fill="none" stroke="#141010" stroke-width="30"/>
+        <path d="M152 70 Q162 54 184 60" fill="none" stroke="#3E8C8A" stroke-width="24"/>
+        <!-- Cuello y cabeza -->
+        <path d="M262 40 L282 30" fill="none" stroke="#141010" stroke-width="14"/>
+        <path d="M262 40 L282 30" fill="none" stroke="#C98A5E" stroke-width="9"/>
+        <circle cx="291" cy="22" r="15" fill="#C98A5E" stroke="#141010" stroke-width="3"/>
+        <path d="M296 30 Q302 32 306 28" fill="none" stroke="#141010" stroke-width="2"/>
+        <!-- Casco blanco con ventilaciones -->
+        <path d="M268 18 Q272 -2 296 0 Q312 2 310 16 L300 14 Q286 8 268 18 Z" fill="#FFFFFF" stroke="#141010" stroke-width="3"/>
+        <path d="M280 6 L286 12 M290 3 L294 10 M300 4 L302 11" stroke="#141010" stroke-width="2"/>
+        <!-- Lentes -->
+        <path d="M292 18 L308 18 L307 24 Q300 27 294 24 Z" fill="#35B8C9" stroke="#141010" stroke-width="2"/>
+        <!-- Brazo cercano -->
+        <path d="M258 48 L280 84 L326 90" fill="none" stroke="#141010" stroke-width="14"/>
+        <path d="M258 48 L270 66" fill="none" stroke="#C0391B" stroke-width="10"/>
+        <path d="M270 66 L280 84 L322 90" fill="none" stroke="#C98A5E" stroke-width="9"/>
+        <circle cx="326" cy="90" r="7" fill="#141010"/>
+      </g>
+    </svg>
+  </div>
+</div>
+  </div>
+    <div class="wrap"><b>Baccio</b><b>GT</b><b>Cannondale</b><b>Scott</b><b>Kova</b><b>S-Pro</b><b>Bravo</b><b class="dist">Deceleste<small>Distribuidor oficial</small></b></div>
+  </div>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <div class="eyebrow">Qué buscás</div>
+          <h2>Todo para rodar, <em>en un solo lugar.</em></h2>
+        </div>
+      </div>
+      <div class="tiles">
+        <a class="tile tile-big" href="bicicletas.html"><img src="img/bicis/kova-nepal-29.jpg" alt=""><span>Bicicletas</span><small>Mountain bikes rodado 29 y bicis de spinning</small></a>
+        <a class="tile" href="electricas.html"><img src="img/bicis/spro-mob-29.jpg" alt=""><span>Eléctricas</span><small>Línea S-Pro</small></a>
+        <a class="tile" href="repuestos.html"><img src="img/repuestos/frenos-disco.jpg" alt=""><span>Repuestos</span><small>Cámaras, cubiertas, frenos y accesorios</small></a>
+        <a class="tile tile-wide" href="taller.html"><ul aria-hidden="true"><li>Service básico</li><li>Service completo</li><li>Frenos y cambios</li><li>Ruedas</li><li>Transmisión</li><li>Armado</li></ul><span>Taller</span><small>Service y reparaciones en el día</small></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="block reviews">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <div class="eyebrow">Opiniones en Google</div>
+          <h2>Lo que dicen <em>quienes ya ruedan.</em></h2>
+        </div>
+        <a class="rating" href="https://www.google.com/maps/search/?api=1&amp;query=Rush+Bicicletas+Av.+Gral.+Rivera+4713+Montevideo" target="_blank" rel="noopener">
+          <b>4.5</b>
+          <span><span class="stars stars-45" aria-label="4.5 de 5 estrellas">★★★★★</span><small>352 opiniones en Google</small></span>
+        </a>
+      </div>
+      <div class="reviews-grid">
+        <figure class="review review-lead">
+          <span class="stars" aria-label="5 de 5 estrellas">★★★★★</span>
+          <blockquote>“Marcelo muy amable. Compramos dos bicicletas y la verdad muy bien armadas y asesorados. Les adjunto imágenes de lo que compramos y recomendamos.”</blockquote>
+          <div class="review-photos">
+            <img src="img/clientes/cliente-1.jpg" alt="Bicicleta eléctrica plegable S-Pro de una clienta" loading="lazy">
+            <img src="img/clientes/cliente-2.jpg" alt="Bicicleta de paseo con canasto de una clienta" loading="lazy">
+            <img src="img/clientes/cliente-3.jpg" alt="Detalle del asiento de la bicicleta de paseo" loading="lazy">
+          </div>
+          <figcaption><b>Paola D.</b> Local Guide de Google</figcaption>
+        </figure>
+        <figure class="review review-pic">
+          <img src="img/clientes/cliente-gimena.jpg" alt="Bicicleta verde agua de una clienta, junto a otras bicis" loading="lazy">
+          <span class="stars" aria-label="5 de 5 estrellas">★★★★★</span>
+          <blockquote>“Súper contenta con mi compra! Entendió enseguida lo que precisaba y me asesoró sobre la mejor opción para mí. La verdad la bici hermosa cumple todas mis expectativas ✨🚲 Recomendable 💯 muchas gracias!”</blockquote>
+          <figcaption><b>Gimena S.</b> Opinión en Google</figcaption>
+        </figure>
+        <figure class="review">
+          <span class="stars" aria-label="5 de 5 estrellas">★★★★★</span>
+          <blockquote>“Excelente atención y servicio. Llevamos dos bicicletas, una nueva para ajustar y otra usada para regular los frenos. En 2 horas estaban listas para retirar, muy recomendable.”</blockquote>
+          <figcaption><b>Ana</b> Cliente del taller</figcaption>
+        </figure>
+        <figure class="review">
+          <span class="stars" aria-label="5 de 5 estrellas">★★★★★</span>
+          <blockquote>“Impecable atención desde el primer momento y la bici espectacular!!! Super recomendado 👌”</blockquote>
+          <figcaption><b>Ignacio B.</b> Opinión en Google</figcaption>
+        </figure>
+        <figure class="review">
+          <span class="stars" aria-label="5 de 5 estrellas">★★★★★</span>
+          <blockquote>“Excelente atención y asesoramiento! Super recomendables.”</blockquote>
+          <figcaption><b>Gaby M.</b> Local Guide de Google</figcaption>
+        </figure>
+      </div>
+      <p class="reviews-more"><a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=Rush+Bicicletas+Av.+Gral.+Rivera+4713+Montevideo" target="_blank" rel="noopener">Ver las 352 opiniones en Google</a></p>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap"><span>© Rush Bicicletas · Rivera 4713, Montevideo · Distribuidor oficial Deceleste</span><span>WhatsApp 096 400 795 · @rushbicicletas</span></div></footer>
+
+<a class="wa-float wa-link" href="#" target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp"><svg><use href="#wa-icon"/></svg></a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
